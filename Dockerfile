@@ -1,7 +1,7 @@
 FROM openjdk:11
 
-ADD ./target/HealthMonitoring-server-0.0.1-SNAPSHOT.jar /usr/src/HealthMonitoring-server-0.0.1-SNAPSHOT.jar
+ADD ./target/health-monitoring.jar /usr/src/health-monitoring.jar
 
 WORKDIR usr/src
 
-ENTRYPOINT ["java","-jar", "HealthMonitoring-server-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar", "health-monitoring.jar"]

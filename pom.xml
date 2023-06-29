@@ -71,6 +71,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>health-monitoring</finalName>
 	</build>
 	<repositories>
 		<repository>
